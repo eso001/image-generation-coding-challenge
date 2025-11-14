@@ -2,6 +2,16 @@
 
 Single-screen web workspace for prompt-based image generation and iterative refinements, powered by Nano Banana (Gemini) under the hood.
 
+<details>
+<summary>🎥 Product Walkthrough</summary>
+
+<video controls playsinline muted width="100%">
+  <source src="image-generation-site.mp4" type="video/mp4" />
+  <a href="image-generation-site.mp4">Download the demo video</a>
+</video>
+
+</details>
+
 ---
 
 ## 1. Setup
