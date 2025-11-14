@@ -1,0 +1,15 @@
+- [x] Finalize single-screen UX wireframes covering header, scrollable output area, empty state, and bottom-fixed prompt bar.
+- [x] Scaffold the React one-page layout with sticky prompt bar, scrollable image thread region, and base styles.
+- [x] Implement global state (Context/store) for `currentImage`, `history[]`, `isLoading`, and `error`.
+- [x] Build the prompt input component with multi-line textarea and dynamic `Generate` → `Refine` button behavior.
+- [x] Create history card components that can show loading placeholders, timestamps, prompt snippets, and rendered images.
+- [x] Implement the `/generate` API endpoint returning `imageId`, `imageData/base64`, and `seed`.
+- [x] Wire the frontend initial generation flow to call `/generate`, show loading states, and append the first history entry.
+- [x] Implement session context storage on the backend to retain the latest `seed`/`imageId` per client thread.
+- [x] Build the `/refine` endpoint that accepts new prompts plus the last seed/image id and returns the refined image payload.
+- [x] Connect the frontend refinement flow so follow-up prompts call `/refine`, stack new history cards, and auto-scroll to latest.
+- [x] Add the Clear action with confirmation modal to reset frontend state and notify the backend to drop stored context.
+- [x] Implement centralized error handling: backend error responses + frontend toast (“Something went wrong. Try again.”) with retry.
+- [x] Integrate the AI image service adapter with retries/timeouts and return base64 or temp URLs for images.
+- [x] Optimize loading control to prevent overlapping submissions and keep the prompt textarea editable during generation.
+- [x] Polish responsiveness, accessibility (focus + aria-live), and perform QA on the full generate → refine → clear loop.
