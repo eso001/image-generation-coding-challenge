@@ -97,3 +97,9 @@ Single-screen web workspace for prompt-based image generation and iterative refi
   5. Automated tests (unit + integration) once a stable CI Node version is defined.
 
 Follow the checklist in `checklist.md` for completion status of MVP milestones.
+
+
+
+https://github.com/user-attachments/assets/cafcbf74-c0ae-40d3-8958-8a16b0ae4981
+
+
